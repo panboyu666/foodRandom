@@ -3,6 +3,7 @@ package pan.bo.yu.foodrandom;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -15,6 +16,7 @@ TextView textView;
         setContentView(R.layout.activity_main);
         textView=findViewById(R.id.text);
 
+        Log.w("boobs","test");
 
         food[0] ="便當";
         food[1] ="燒肉飯";
