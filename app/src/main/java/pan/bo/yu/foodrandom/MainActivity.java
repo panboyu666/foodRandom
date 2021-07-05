@@ -16,7 +16,7 @@ TextView textView;
         setContentView(R.layout.activity_main);
         textView=findViewById(R.id.text);
 
-        Log.w("boobs","test3");
+        Log.w("boobs","test4");
 
         food[0] ="便當";
         food[1] ="燒肉飯";
