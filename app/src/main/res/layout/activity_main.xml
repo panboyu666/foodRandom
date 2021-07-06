@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/mylayout2"
+    >
 
     <TextView
         android:id="@+id/text"
@@ -19,17 +22,23 @@
         android:layout_centerHorizontal="true"
         android:textSize="40dp"
         android:textColor="@color/black"
+        android:fontFamily="@font/myfont"
         />
 
     <Button
         android:id="@+id/button"
         android:layout_width="189dp"
-        android:layout_height="44dp"
+        android:layout_height="65dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="82dp"
+        android:layout_marginBottom="150dp"
         android:onClick="randown"
         android:text="隨機挑選"
-        android:textSize="20dp" />
+        android:textSize="28dp"
+        android:background="@drawable/mylayout"
+        android:fontFamily="@font/myfont"
+        />
+
+
 
 </RelativeLayout>

@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 TextView textView;
-    String [] food = new String[88];
+    String [] food = new String[90];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,6 +106,8 @@ TextView textView;
         food[85] ="吃土";
         food[86] ="燉飯";
         food[87] ="火雞肉飯";
+        food[88] ="請問你要按幾次";
+        food[89] ="你是不是不太餓?";
 
 
 
@@ -118,7 +120,7 @@ TextView textView;
 
     public void randown(View view) {
 
-        int i = (int) (Math.random()*87+1);
+        int i = (int) (Math.random()*food.length+1);
         textView.setText(food[i]);
 
     }
